@@ -1,0 +1,30 @@
+{
+    "name": "react/filesystem",
+    "description": "Filesystem abstraction layer for libuv.",
+    "keywords": ["filesystem", "asynchronous"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "react/event-loop": "dev-libuv",
+        "react/promise": "~2.0"
+    },
+    "repositories": [{
+        "type": "git",
+        "url": "http://github.com/steverhoades/event-loop"
+    }],
+    "suggest": {
+        "ext-libevent": ">=0.1.0",
+        "ext-event": "~1.0",
+        "ext-libev": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "React\\Filesystem\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "React\\Tests\\Filesystem\\": "tests/"
+        }
+    }
+}
