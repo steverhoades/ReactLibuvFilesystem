@@ -13,5 +13,7 @@ matrix:
     - php: hhvm-nightly
   fast_finish: true
 
+install: ./travis-init.sh
+
 script:
   - phpunit --coverage-text
