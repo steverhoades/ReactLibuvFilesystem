@@ -1,5 +1,6 @@
 ReactLibuvFilesystem
 ====================
+[![Build Status](https://secure.travis-ci.org/steverhoades/ReactLibuvFilesystem.png?branch=master)](https://travis-ci.org/steverhoades/ReactLibuvFilesystem)
 
 libuv Filesystem functions to be used with the ReactPHP Event Loop library
 
